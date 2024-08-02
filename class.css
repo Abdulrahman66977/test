@@ -1,0 +1,112 @@
+body {
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  width: 300px;
+  background-color: indigo;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.show{
+  background-color:rgb(184, 92, 184) ;
+  height: 100%;
+  width: 100%;
+  opacity: .4;
+}
+.image {
+  height: 200px;
+  background-image: url('Image/Mobile.jpg');
+  background-size: cover;
+  background-position: center;
+
+   
+}
+
+.container {
+  padding: 20px;
+  color: #fff;
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: plum;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+}
+
+.stat {
+  
+  flex-direction: column;
+}
+
+.stat h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.stat p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+@media (min-width:720px){
+  .card{
+      display: flex;
+      flex-direction: row-reverse;
+      width: 900px;
+      height: 450px;
+  }
+  .image{
+      width: 700px;
+      height: 100%;
+     background-size:cover;
+     background-repeat: no-repeat;
+     background-position: center;
+      background-image: url('Image/Mobile.jpg');
+  }
+  .container{
+      margin: auto;
+  }
+  .text {
+      color: purple;
+      font-family: poppins;
+  }
+  .container h2{
+      font-size: 1.8em;
+      font-weight: 790;
+      font-family:sans-serif;
+
+  }
+  .container p{
+      font-size: 18px;
+      margin-top: 2em;
+
+  }
+  .stats{
+    display: flex;
+    justify-content: space-around;
+}
+.stat{
+    text-align: center;
+}
+.stat h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+}
